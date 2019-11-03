@@ -1,0 +1,15 @@
+// Buttons
+.btn {
+  color: #ffffff;
+  @include fluid-font(13px, 16px, 320px, 1380px);
+  font-weight: 700;
+  line-height: 15px;
+  background-color: #8d81ac;
+  border-radius: 25px;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  outline: 0 none;
+  border: 0 none;
+
+}

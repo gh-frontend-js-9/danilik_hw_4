@@ -1,0 +1,140 @@
+/* SUBSCRIPTION SECTION */
+.subscription {
+  background-image: url(../images/sub-bg.png);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px;
+  background-size: cover;
+}
+
+.subscription__title {
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 700;
+  display: inline-block;
+  margin-top: 0;
+  text-align: center;
+}
+
+.subscription__desc {
+  opacity: 0.8;
+  color: #a291a5;
+  font-family: "Source Sans Pro";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  width: 60%;
+  margin-top: 50px;
+}
+
+.subscription-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 10%;
+  width: 100%;
+
+
+  @include max-w(768px) {
+    margin-top: 40px;
+    // flex-direction: column;
+  }
+
+}
+
+.subscription-block {
+  width: 250px;
+  position: relative;
+  margin: 2% 2%;
+  background-color: rgba(106,92,109, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subscription-block:hover {
+  transform: scale(1.15);
+  background-color: rgba(57, 45, 61, 0.5);
+}
+
+.subscription-block:hover .subscription-block__name {
+  background-color: #392D3D;
+}
+
+.subscription-block__name {
+  text-align: center;
+  background-color: #695B6A;
+  width: 100%;
+  padding-top: calc(45px - 24px);
+  padding-bottom: calc(33px - 24px);
+}
+
+.subscription-block__name h3 {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 20.45px;
+  text-transform: uppercase;
+}
+
+.subscription-block__price {
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 90.28px;
+  text-transform: uppercase;
+  font-family: "Montserrat - Regular";
+  font-weight: 700;
+  margin: 0;
+}
+
+.subscription-block__time {
+  opacity: 0.3;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 90.28px;
+  text-transform: uppercase;
+}
+
+
+
+.subscription-block__lisence {
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+  width: 85%;
+}
+
+.subscription-block__lisence:before {
+  content: '';
+  height: 5px;
+  background-color: #8d81ac;
+  display: block;
+  width: 40%;
+  transform: translate(70%);
+  margin-bottom: 40px;
+}
+
+.subscription-block__btn {
+  padding: 16px 43px;
+  border-radius: 30px;
+  background-color: rgba(106,92,109, 1);
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20.45px;
+  text-transform: uppercase;
+  margin-bottom: 38px;
+  margin-top: calc(36px - 16px);
+}
