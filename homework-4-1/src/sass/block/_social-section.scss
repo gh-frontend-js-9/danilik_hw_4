@@ -1,0 +1,135 @@
+/* SECTION SOCIAL */
+
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0;
+}
+
+.profile-user-block {
+  display: flex;
+}
+
+.profile-user-wrpapper {
+  margin-left: 25px;
+}
+
+.profile-user__img {
+  align-self: flex-start;
+}
+
+.profile-user__name {
+  color: #635c73;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-top: 21;
+  margin-bottom: 0;
+}
+
+.profile-user__login {
+  color: #8d81ac;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 0;
+}
+
+.social__description {
+  margin-top: 50px;
+  width: 60%;
+  color: #333333;
+  font-family: "Source Sans Pro";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+}
+
+.social__description-span {
+  color: #8d81ac;
+}
+
+.social__time {
+  color: #848e97;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+
+.followers-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 120px;
+
+  @include max-w(860px) {
+    flex-direction: column;
+  }
+}
+
+.followers-block {
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.followers-block__btn {
+  background-color: #f3f3f3;
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 32px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 82px;
+  border-radius: 5px;
+}
+
+.followers-block__btn2 {
+  background-color: #26a6d1;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 32px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 82px;
+  border-radius: 5px;
+}
+
+.followers-block__btn3 {
+  background-color: #3b5998;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 32px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 62px;
+  border-radius: 5px;
+}
+
+.fab {
+  padding-right: 40px;
+}
+
+.followers-block__desc {
+  color: #848e97;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 18px;
+}
